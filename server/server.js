@@ -17,7 +17,7 @@ fs.writeFile('chirps.json', myJSON, (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
   });
-
+  
  
  
   fs.readFile(filePath, 'utf-8', function read(err, data) {
